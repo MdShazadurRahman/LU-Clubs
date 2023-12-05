@@ -156,6 +156,7 @@ a:hover{
     width: 1000px;
     height: 500px;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .event-title{
@@ -165,6 +166,7 @@ a:hover{
     margin-top: 20px;
     border-radius: 5%;
     color: black;
+    cursor: pointer;
 }
 
 .concert{
@@ -175,7 +177,8 @@ a:hover{
 .concert-image{
     width: 600px;
     height: 500px;
-    object-fit: contain;
+    object-fit: cover;
+    cursor: pointer;
 }
 
 .orphius{
@@ -187,6 +190,7 @@ a:hover{
     width: 1000px;
     height: 600px;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .get{
