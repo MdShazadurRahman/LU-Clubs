@@ -14,37 +14,13 @@
             <div class="fr">
                 <div>
                 
-                    <!-- <input type="number" name="otp" id="otp" placeholder="Enter OTP here" required> 
-                    <br><br>
 
-                    <button name="login" id="submit"><a href="home-page.html">Login</a></button> -->
-
-                    <input type="number" id="otp" placeholder="Enter OTP" required>
+                    <input type="number" id="otp" placeholder="Enter OTP" required><br><br>
                     <button id="submit">Login</button>      
                 
             </div>
         </div>
 
-        <!-- <script> 
-            let student_id = document.getElementById('otp');
-            let submit = document.getElementById('login');
-            
-            
-            
-            submit.addEventListener('click', (e) => { 
-                e.preventDefault()
-                let value = student_id.value.toString();
-                let length = value.length; 
-                if(length != 4){
-                    alert('Enter Valid OTP')
-                }
-                else{
-                    window.location.href = 'home-page.html';
-                    
-                }
-            });
-            
-            </script>-->
 
             <script>
                 document.getElementById('submit').addEventListener('click', (e) => {
