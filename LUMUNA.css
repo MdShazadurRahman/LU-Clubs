@@ -173,7 +173,7 @@ hr{
 } 
 
 .get-reg{
-    background-color: tomato
+    background-color: tomato;
 }
 .get:hover{
     color: white;
