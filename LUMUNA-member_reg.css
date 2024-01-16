@@ -77,7 +77,7 @@ input#stdid{
 }
 
 input#otp {  
-    width: 100%;
+    width: 60%;
     background-color: green;
     color: white;
     padding: 14px 20px;
